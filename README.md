@@ -22,9 +22,9 @@
 
 将 `bili-to-obsidian/` 目录放入 `~/.workbuddy/skills/`，然后告诉 AI：
 
-> 帮我把 https://space.bilibili.com/28321599 的最近 20 个视频保存到 Obsidian
+> 帮我把 https://space.bilibili.com/{space.id} 的最近 5 个视频保存到 Obsidian
 
-AI 会自动询问 UP 主链接和视频数量，然后批量处理。
+AI 会自动询问 UP 主链接和视频数量，然后批量处理。存储路径：默认 Clippings/Bilibili/，可自定义。
 
 ## 文件结构
 
