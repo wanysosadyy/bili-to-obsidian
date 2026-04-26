@@ -14,7 +14,7 @@
 ## 前置条件
 
 - **Edge/Chrome** 带调试端口启动：`--remote-debugging-port=9222`
-- [Bilibili Obsidian Clipper](https://github.com/youyooolf/bilibili-obsidian-clipper) 扩展已安装
+- [Bilibili Obsidian Clipper](https://github.com/haixiong1997/Bilibili-Obsidian-Clipper)扩展已安装
 - [browser-harness-js](https://github.com/nicosql/browser-harness-js)（CDP 工具）可用
 - Obsidian 运行中且 Local REST API 插件已启用
 
