@@ -22,7 +22,7 @@ description: 通过 CDP 自动化 Bilibili Obsidian Clipper 浏览器扩展，�
 
 1. **UP 主空间链接或 UID**：例如 `https://space.bilibili.com/28321599` 或仅 UID `28321599`
 2. **要收集的视频数量**：**必须询问用户**，如果用户没说，默认 **5** 个
-3. **保存目录**（可选）：默认 `Clippings/Bilibili/`，可让用户自定义
+3. **保存目录**：由 Bilibili Obsidian Clipper 扩展程序预设决定（扩展内可配置），skill 不指定具体路径；用户可提前在扩展选项中设置目标文件夹
 
 ### 完整流程
 
@@ -167,4 +167,4 @@ EOF
 - 扩展只在 `bilibili.com/video/` 页面生效，空间页不会注入面板
 - 如果用户中途关闭浏览器或断开连接，已成功的视频不会重复处理（Obsidian 文件已存在）
 - **视频数量必须询问用户，未指定时默认 5 个**
-- **保存目录默认 `Clippings/Bilibili/`，可让用户自定义输入**
+- **保存目录由 Bilibili Obsidian Clipper 扩展程序预设决定**（在扩展选项里配置，skill 不硬编码路径）
