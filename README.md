@@ -24,7 +24,7 @@
 
 > 帮我把 https://space.bilibili.com/{space.id} 的最近 5 个视频保存到 Obsidian
 
-AI 会自动询问 UP 主链接和视频数量，然后批量处理。存储路径：默认 Clippings/Bilibili/，可自定义。
+AI 会自动询问 UP 主链接和视频数量，然后批量处理。存储路径为扩展程序的保存地址，默认 Clippings/Bilibili/，可自定义。
 
 ## 文件结构
 
